@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="end">
+      <ion-menu-button color="primary" menu="menu"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Menú</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="tabs">
+    <ion-tabs>
+      <ion-tab-bar slot="bottom">
+        <ion-tab-button tab="clases">
+          <ion-icon name="pencil-outline"></ion-icon>
+          <ion-label>Clases</ion-label>
+        </ion-tab-button>
+         
+        <ion-tab-button tab="calendario">
+          <ion-icon name="calendar"></ion-icon>
+          <ion-label>Calendario</ion-label>
+        </ion-tab-button>
+
+        <ion-tab-button tab="notas">
+          <ion-icon name="star-outline"></ion-icon>
+          <ion-label>Notas</ion-label>
+        </ion-tab-button>
+    
+        <ion-tab-button tab="pagos">
+          <ion-icon name="wallet-outline"></ion-icon>
+          <ion-label>Pagos</ion-label>
+        </ion-tab-button>
+      </ion-tab-bar>
+    </ion-tabs>
+  </div>
+</ion-content>

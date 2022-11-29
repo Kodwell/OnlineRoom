@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Registrate</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="logos">
+      <div class="title ion-text-center">
+        <img src="assets/images/logo.png"/>
+      </div>
+  </div>
+  <div class="info">
+      <ion-item fill="outline">
+        <ion-label position="floating">Nombre de usuario</ion-label>
+        <ion-input placeholder="ejemplo123"></ion-input>
+      </ion-item>
+      <ion-item fill="outline">
+        <ion-label position="floating" type="password">Contraseña</ion-label>
+        <ion-input placeholder="Ej.12345"></ion-input>
+      </ion-item>
+      <ion-item fill="outline">
+        <ion-label position="floating" type="email">Correo</ion-label>
+        <ion-input placeholder="ejem@onlineroom.cl"></ion-input>
+      </ion-item>
+      <ion-item fill="outline">
+        <ion-label position="floating" type="tel">Teléfono</ion-label>
+        <ion-input placeholder="911111111"></ion-input>
+      </ion-item>
+    <div class="botones">
+      <ion-button (click)="presentToast('top')" color="success">Registrarse</ion-button>
+      <br>
+      <ion-button routerLink="/login">Volver</ion-button>
+    </div>
+
+  </div>
+</ion-content>

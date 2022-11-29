@@ -1,0 +1,77 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="end">
+      <ion-menu-button color="primary" menu="menu"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Perfil</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="usercard">
+    <div class="main_content_div">
+      <div class="user_div">
+        <div class="first_div">
+          <ion-label class="username">Bienvenido</ion-label>
+        </div>
+        <div class="user_back" [style.backgroundImage]="'url(assets/images/pic.jpg)'"></div>
+      </div>
+      <div class="content_div">
+        <div class="test_details">
+          <ion-grid fixed>
+            <ion-row>
+              <ion-col size="6">
+                <div class="flex_div">
+                  <div class="round_div">
+                    <ion-icon name="accessibility-outline" class="icono"></ion-icon>
+                  </div>
+                  <div class="details">
+                    <ion-label class="bold_lbl">Edad</ion-label>
+                    <br>
+                    <ion-label class="small_lbl">23 años</ion-label>
+                  </div>
+                </div>
+              </ion-col>
+              <ion-col size="6">
+                <div class="flex_div">
+                  <div class="round_div">
+                    <ion-icon name="alarm-outline" class="icono"></ion-icon>
+                  </div>
+                  <div class="details">
+                    <ion-label class="bold_lbl">Modalidad</ion-label>
+                    <br>
+                    <ion-label class="small_lbl">Vespertino</ion-label>
+                  </div>
+                </div>
+              </ion-col>
+              <ion-col size="6">
+                <div class="flex_div">
+                  <div class="round_div">
+                    <ion-icon name="star-outline" class="icono"></ion-icon>
+                  </div>
+                  <div class="details">
+                    <ion-label class="bold_lbl">Promedio</ion-label>
+                    <br>
+                    <ion-label class="small_lbl">6,5</ion-label>
+                  </div>
+                </div>
+              </ion-col>
+              <ion-col size="6">
+                <div class="flex_div">
+                  <div class="round_div">
+                    <ion-icon name="wallet-outline" class="icono"></ion-icon>
+                  </div>
+                  <div class="details">
+                    <ion-label class="bold_lbl">Pagos</ion-label>
+                    <br>
+                    <ion-label class="small_lbl">Actualizado</ion-label>
+                  </div>
+                </div>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </div>
+      </div>
+    </div>
+  </ion-card>
+</ion-content>

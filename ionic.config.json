@@ -1,0 +1,7 @@
+{
+  "name": "OnlineRoom",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
